@@ -1,0 +1,27 @@
+body {
+	height: 100%;
+	background-color: green;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.card {
+	background: white;
+	border-radius: 2px;
+	display: inline-block;
+	margin: 5px;
+	padding: 0 2px 30px;
+	width: 40px;
+}
+
+.table {
+	display: inline-table;
+	width: 45%;
+}
+
+.controles {
+	background-color: white;
+	height: 50px;
+	padding: 20px 0;
+	text-align: center;
+}

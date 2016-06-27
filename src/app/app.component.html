@@ -1,7 +1,7 @@
-<div>
+<div class="table">
 	<h2>Card Deck</h2>
-	<form>
-		<button
+	<form class="pure-form controles">
+		<button class="pure-button pure-button-primary"
 		(click)="onShuffle()">Shuffle</button>
 
 		<input 	placeholder="Number of cards" 
@@ -10,20 +10,23 @@
 				type="number"
 				#dealNumber>
 
-		<button (click)="onDeal(dealNumber.value)">Deal</button>
+		<button class="pure-button pure-button-primary"
+		(click)="onDeal(dealNumber.value)">Deal</button>
 	</form>
 	<card-face *ngFor="let card of cardDeck" 
 		[card]="card">
 	</card-face>
 </div>
 
-<div>
+<div class="table">
 	<h2>Players Hand</h2>
-	<div>
-		<button (click)="onSort()">Sort by value</button>
-		<button (click)="onSortSuit()">Sort by Suit</button>
+	<div class="controles">
+		<button class="pure-button pure-button-primary"
+		(click)="onSort()">Sort by value</button>
+		<button class="pure-button pure-button-primary"
+		(click)="onSortSuit()">Sort by Suit</button>
 	</div>
-		<card-face *ngFor="let card of cardHand" 
-			[card]="card">
-		</card-face>
+	<card-face *ngFor="let card of cardHand" 
+		[card]="card">
+	</card-face>
 </div>
