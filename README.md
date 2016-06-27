@@ -1,4 +1,17 @@
-# LearnAngular2
+# Deck Of Cards
+
+### Requirments:
+- Shuffle cards
+- Draw any number of cards
+- Sort the cards
+
+## Project structure:
+- Card Component  
+- Card Deck Service
+
+## Prerequisite:
+Install Node.js and npm
+run `npm install`
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.8.
 
