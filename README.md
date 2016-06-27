@@ -1,6 +1,6 @@
 # Deck Of Cards
 
-![alt tag]https://raw.githubusercontent.com/danfs/learn-angular-2/master/DeckOfCards.png)
+![alt tag](https://raw.githubusercontent.com/danfs/learn-angular-2/master/DeckOfCards.png)
 All the runable files ar in the /dist folder
 
 
