@@ -1,3 +1,29 @@
-<h1>
-  {{title}}
-</h1>
+<div>
+	<h2>Card Deck</h2>
+	<form>
+		<button
+		(click)="onShuffle()">Shuffle</button>
+
+		<input 	placeholder="Number of cards" 
+				maxLength=2 
+				value="25"
+				type="number"
+				#dealNumber>
+
+		<button (click)="onDeal(dealNumber.value)">Deal</button>
+	</form>
+	<card-face *ngFor="let card of cardDeck" 
+		[card]="card">
+	</card-face>
+</div>
+
+<div>
+	<h2>Players Hand</h2>
+	<div>
+		<button (click)="onSort()">Sort by value</button>
+		<button (click)="onSortSuit()">Sort by Suit</button>
+	</div>
+		<card-face *ngFor="let card of cardHand" 
+			[card]="card">
+		</card-face>
+</div>
