@@ -1,22 +1,29 @@
 # Deck Of Cards
 
 ![alt tag](https://raw.githubusercontent.com/danfs/learn-angular-2/master/DeckOfCards.png)
-All the runable files ar in the /dist folder
-
+All the runable files are in the /dist folder  
+An Angular 2 project.  
+Collect and shuffle the full deck of cards by clicking the Shuffle button. Choose how many card to deal and click Deal to deal the cards at the top of the deck to the players side. On the players side you can then sort but value (ace high) or by suit and value.  
 
 ### Requirments:
 - Shuffle cards
 - Draw any number of cards
-- Sort the cards
+- Sort the cards by value (Ace high) and by suit
 
 ## Project structure:
 - Card Component  
 - Card Deck Service
 
 ## Prerequisite:
-Install Node.js and npm
-run `npm install`
+Install Node.js and npm  
 
+## To run:
+- Clone git locally
+- Run `npm install`
+- Run `ng serve`  
+
+
+-----
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.8.
 
 ## Development server
